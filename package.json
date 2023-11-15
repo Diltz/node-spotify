@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
+  }
+}
