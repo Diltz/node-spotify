@@ -6,7 +6,7 @@
     "@types/node": "^20.9.0"
   },
   "name": "node-spotify-web",
-  "version": "1.0.2",
+  "version": "1.0.2a",
   "description": "My own wrapper for Spotify Web API",
   "main": "./build/index.js",
   "types": "./types/index.d.ts",
