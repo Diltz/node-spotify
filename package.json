@@ -8,10 +8,8 @@
   "name": "node-spotify-web",
   "version": "1.0.0",
   "description": "My own wrapper for Spotify Web API",
-  "main": "api.js",
-  "scripts": {
-    "test": "node build/script.test.js"
-  },
+  "main": "src/api.ts",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Diltz/node-spotify.git"
