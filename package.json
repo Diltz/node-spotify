@@ -4,5 +4,25 @@
   },
   "devDependencies": {
     "@types/node": "^20.9.0"
-  }
+  },
+  "name": "node-spotify",
+  "version": "1.0.0",
+  "description": "My own wrapper for Spotify Web API",
+  "main": "api.js",
+  "scripts": {
+    "test": "node build/script.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diltz/node-spotify.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Diltz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diltz/node-spotify/issues"
+  },
+  "homepage": "https://github.com/Diltz/node-spotify#readme"
 }
