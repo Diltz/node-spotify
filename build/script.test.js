@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const api_js_1 = require("./api.js");
-let spotify = new api_js_1.spotifyAPI('42579b56482b4e99b4c98c169a704e75', 'c190b0220a46460abc60f83107ef9802');
+let spotify = new api_js_1.SpotifyClient('your_client_id_here', 'your_secret_here');
 (() => __awaiter(void 0, void 0, void 0, function* () {
     yield spotify.authenticate([]);
     let result;
@@ -20,5 +20,4 @@ let spotify = new api_js_1.spotifyAPI('42579b56482b4e99b4c98c169a704e75', 'c190b
     catch (error) {
         console.log(error);
     }
-    console.log(result);
 }))();

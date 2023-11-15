@@ -9,11 +9,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.spotifyAPI = void 0;
+exports.SpotifyClient = void 0;
 const API_TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
-const API_GET_TRACKINFO_ENDPOINT = 'https://api.spotify.com/v1/tracks/'; // {id}
+const API_GET_TRACKINFO_ENDPOINT = 'https://api.spotify.com/v1/tracks/';
 const API_GET_PLAYLIST_ENDPOINT = 'https://api.spotify.com/v1/playlists/';
-class spotifyAPI {
+class SpotifyClient {
     constructor(clientid, secret) {
         this.hasAuthenticated = false;
         this.refreshTokenAt = new Date();
@@ -150,4 +150,4 @@ class spotifyAPI {
         });
     }
 }
-exports.spotifyAPI = spotifyAPI;
+exports.SpotifyClient = SpotifyClient;
