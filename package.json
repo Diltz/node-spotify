@@ -6,10 +6,10 @@
     "@types/node": "^20.9.0"
   },
   "name": "node-spotify-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My own wrapper for Spotify Web API",
-  "main": "index.ts",
-  "types": "./types/spotify.d.ts",
+  "main": "./src/index.ts",
+  "types": "./types/index.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
