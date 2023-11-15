@@ -8,7 +8,8 @@
   "name": "node-spotify-web",
   "version": "1.0.1",
   "description": "My own wrapper for Spotify Web API",
-  "main": "src/api.ts",
+  "main": "index.ts",
+  "types": "./types/spotify.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
